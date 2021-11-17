@@ -1,16 +1,12 @@
 {
-  "name": "DaisyX",
+  "name": "zerobotmanager",
   "description": "?",
   "keywords": [
     "telegram",
-    "Daisy",
-    "plugin",
-    "telegram-DaisyX",
     "fuck-TG"
   ],
-  "repository": "https://github.com/TeamDaisyX/DaisyX",
-  "website": "daisyproject.studio",
-  "success_url": "t.me/DaisyXUpdates",
+  "repository": "https://github.com/zerosquad13/zerobotmanager",
+  "success_url": "t.me/xproject13",
   "buildpacks": [
    {
      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
