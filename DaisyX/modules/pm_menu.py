@@ -80,7 +80,7 @@ async def get_start_func(message, strings, edit=False):
     buttons.add(
         InlineKeyboardButton(
             "💥𝐀𝐃𝐃 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏💥",
-            url=f"https://telegram.me/sinnerXzero_bot?startgroup=true",
+            url=f"https://telegram.me/supersinnerbot?startgroup=true",
         )
     )
     # Handle error when user click the button 2 or more times simultaneously
@@ -122,7 +122,7 @@ async def help_cmd(message, strings):
 async def help_cmd_g(message, strings):
     text = strings["btn_group_help"]
     button = InlineKeyboardMarkup().add(
-        InlineKeyboardButton(text=text, url="https://t.me/sinnerXzero_bot?start")
+        InlineKeyboardButton(text=text, url="https://t.me/supersinnerbot?start")
     )
     await message.reply(strings["help_header"], reply_markup=button)
 
